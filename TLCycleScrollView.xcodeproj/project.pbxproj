@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13003F1F1B6F4F9B005ECFE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13003F1E1B6F4F9B005ECFE8 /* main.m */; };
+		13003F221B6F4F9B005ECFE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13003F211B6F4F9B005ECFE8 /* AppDelegate.m */; };
+		13003F251B6F4F9B005ECFE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13003F241B6F4F9B005ECFE8 /* ViewController.m */; };
+		13003F281B6F4F9B005ECFE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13003F261B6F4F9B005ECFE8 /* Main.storyboard */; };
+		13003F2A1B6F4F9B005ECFE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13003F291B6F4F9B005ECFE8 /* Images.xcassets */; };
+		13003F2D1B6F4F9B005ECFE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13003F2B1B6F4F9B005ECFE8 /* LaunchScreen.xib */; };
+		13003F391B6F4F9B005ECFE8 /* TLCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13003F381B6F4F9B005ECFE8 /* TLCycleScrollViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13003F331B6F4F9B005ECFE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13003F111B6F4F9B005ECFE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13003F181B6F4F9B005ECFE8;
+			remoteInfo = TLCycleScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13003F191B6F4F9B005ECFE8 /* TLCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13003F1D1B6F4F9B005ECFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13003F1E1B6F4F9B005ECFE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13003F201B6F4F9B005ECFE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13003F211B6F4F9B005ECFE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13003F231B6F4F9B005ECFE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13003F241B6F4F9B005ECFE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13003F271B6F4F9B005ECFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13003F291B6F4F9B005ECFE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13003F2C1B6F4F9B005ECFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13003F321B6F4F9B005ECFE8 /* TLCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13003F371B6F4F9B005ECFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13003F381B6F4F9B005ECFE8 /* TLCycleScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCycleScrollViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13003F161B6F4F9B005ECFE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13003F2F1B6F4F9B005ECFE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13003F101B6F4F9B005ECFE8 = {
+			isa = PBXGroup;
+			children = (
+				13003F1B1B6F4F9B005ECFE8 /* TLCycleScrollView */,
+				13003F351B6F4F9B005ECFE8 /* TLCycleScrollViewTests */,
+				13003F1A1B6F4F9B005ECFE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13003F1A1B6F4F9B005ECFE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13003F191B6F4F9B005ECFE8 /* TLCycleScrollView.app */,
+				13003F321B6F4F9B005ECFE8 /* TLCycleScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13003F1B1B6F4F9B005ECFE8 /* TLCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				13003F201B6F4F9B005ECFE8 /* AppDelegate.h */,
+				13003F211B6F4F9B005ECFE8 /* AppDelegate.m */,
+				13003F231B6F4F9B005ECFE8 /* ViewController.h */,
+				13003F241B6F4F9B005ECFE8 /* ViewController.m */,
+				13003F261B6F4F9B005ECFE8 /* Main.storyboard */,
+				13003F291B6F4F9B005ECFE8 /* Images.xcassets */,
+				13003F2B1B6F4F9B005ECFE8 /* LaunchScreen.xib */,
+				13003F1C1B6F4F9B005ECFE8 /* Supporting Files */,
+			);
+			path = TLCycleScrollView;
+			sourceTree = "<group>";
+		};
+		13003F1C1B6F4F9B005ECFE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13003F1D1B6F4F9B005ECFE8 /* Info.plist */,
+				13003F1E1B6F4F9B005ECFE8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13003F351B6F4F9B005ECFE8 /* TLCycleScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				13003F381B6F4F9B005ECFE8 /* TLCycleScrollViewTests.m */,
+				13003F361B6F4F9B005ECFE8 /* Supporting Files */,
+			);
+			path = TLCycleScrollViewTests;
+			sourceTree = "<group>";
+		};
+		13003F361B6F4F9B005ECFE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13003F371B6F4F9B005ECFE8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13003F181B6F4F9B005ECFE8 /* TLCycleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13003F3C1B6F4F9B005ECFE8 /* Build configuration list for PBXNativeTarget "TLCycleScrollView" */;
+			buildPhases = (
+				13003F151B6F4F9B005ECFE8 /* Sources */,
+				13003F161B6F4F9B005ECFE8 /* Frameworks */,
+				13003F171B6F4F9B005ECFE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLCycleScrollView;
+			productName = TLCycleScrollView;
+			productReference = 13003F191B6F4F9B005ECFE8 /* TLCycleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13003F311B6F4F9B005ECFE8 /* TLCycleScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13003F3F1B6F4F9B005ECFE8 /* Build configuration list for PBXNativeTarget "TLCycleScrollViewTests" */;
+			buildPhases = (
+				13003F2E1B6F4F9B005ECFE8 /* Sources */,
+				13003F2F1B6F4F9B005ECFE8 /* Frameworks */,
+				13003F301B6F4F9B005ECFE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13003F341B6F4F9B005ECFE8 /* PBXTargetDependency */,
+			);
+			name = TLCycleScrollViewTests;
+			productName = TLCycleScrollViewTests;
+			productReference = 13003F321B6F4F9B005ECFE8 /* TLCycleScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13003F111B6F4F9B005ECFE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = andezhou;
+				TargetAttributes = {
+					13003F181B6F4F9B005ECFE8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					13003F311B6F4F9B005ECFE8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 13003F181B6F4F9B005ECFE8;
+					};
+				};
+			};
+			buildConfigurationList = 13003F141B6F4F9B005ECFE8 /* Build configuration list for PBXProject "TLCycleScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13003F101B6F4F9B005ECFE8;
+			productRefGroup = 13003F1A1B6F4F9B005ECFE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13003F181B6F4F9B005ECFE8 /* TLCycleScrollView */,
+				13003F311B6F4F9B005ECFE8 /* TLCycleScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13003F171B6F4F9B005ECFE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13003F281B6F4F9B005ECFE8 /* Main.storyboard in Resources */,
+				13003F2D1B6F4F9B005ECFE8 /* LaunchScreen.xib in Resources */,
+				13003F2A1B6F4F9B005ECFE8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13003F301B6F4F9B005ECFE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13003F151B6F4F9B005ECFE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13003F251B6F4F9B005ECFE8 /* ViewController.m in Sources */,
+				13003F221B6F4F9B005ECFE8 /* AppDelegate.m in Sources */,
+				13003F1F1B6F4F9B005ECFE8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13003F2E1B6F4F9B005ECFE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13003F391B6F4F9B005ECFE8 /* TLCycleScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13003F341B6F4F9B005ECFE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13003F181B6F4F9B005ECFE8 /* TLCycleScrollView */;
+			targetProxy = 13003F331B6F4F9B005ECFE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13003F261B6F4F9B005ECFE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13003F271B6F4F9B005ECFE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13003F2B1B6F4F9B005ECFE8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13003F2C1B6F4F9B005ECFE8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13003F3A1B6F4F9B005ECFE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13003F3B1B6F4F9B005ECFE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13003F3D1B6F4F9B005ECFE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLCycleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13003F3E1B6F4F9B005ECFE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TLCycleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13003F401B6F4F9B005ECFE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TLCycleScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLCycleScrollView.app/TLCycleScrollView";
+			};
+			name = Debug;
+		};
+		13003F411B6F4F9B005ECFE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TLCycleScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLCycleScrollView.app/TLCycleScrollView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13003F141B6F4F9B005ECFE8 /* Build configuration list for PBXProject "TLCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13003F3A1B6F4F9B005ECFE8 /* Debug */,
+				13003F3B1B6F4F9B005ECFE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13003F3C1B6F4F9B005ECFE8 /* Build configuration list for PBXNativeTarget "TLCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13003F3D1B6F4F9B005ECFE8 /* Debug */,
+				13003F3E1B6F4F9B005ECFE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13003F3F1B6F4F9B005ECFE8 /* Build configuration list for PBXNativeTarget "TLCycleScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13003F401B6F4F9B005ECFE8 /* Debug */,
+				13003F411B6F4F9B005ECFE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13003F111B6F4F9B005ECFE8 /* Project object */;
+}
