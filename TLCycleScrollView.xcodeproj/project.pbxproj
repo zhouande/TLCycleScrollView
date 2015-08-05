@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		13003F1F1B6F4F9B005ECFE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13003F1E1B6F4F9B005ECFE8 /* main.m */; };
-		13003F221B6F4F9B005ECFE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13003F211B6F4F9B005ECFE8 /* AppDelegate.m */; };
-		13003F251B6F4F9B005ECFE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13003F241B6F4F9B005ECFE8 /* ViewController.m */; };
+		13003F221B6F4F9B005ECFE8 /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13003F211B6F4F9B005ECFE8 /* TLAppDelegate.m */; };
+		13003F251B6F4F9B005ECFE8 /* TLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13003F241B6F4F9B005ECFE8 /* TLMainViewController.m */; };
 		13003F281B6F4F9B005ECFE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13003F261B6F4F9B005ECFE8 /* Main.storyboard */; };
 		13003F2A1B6F4F9B005ECFE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13003F291B6F4F9B005ECFE8 /* Images.xcassets */; };
 		13003F2D1B6F4F9B005ECFE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13003F2B1B6F4F9B005ECFE8 /* LaunchScreen.xib */; };
 		13003F391B6F4F9B005ECFE8 /* TLCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13003F381B6F4F9B005ECFE8 /* TLCycleScrollViewTests.m */; };
+		13003F441B6F503D005ECFE8 /* TLCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13003F431B6F503D005ECFE8 /* TLCycleScrollView.m */; };
+		13003F461B6F566E005ECFE8 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 13003F451B6F566E005ECFE8 /* data.json */; };
+		13003F761B6F65DB005ECFE8 /* TLZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13003F751B6F65DB005ECFE8 /* TLZoomingScrollView.m */; };
+		13E6BF801B70560A007546C5 /* TLClickImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E6BF7F1B70560A007546C5 /* TLClickImageView.m */; };
+		13E6BF861B7062A5007546C5 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E6BF851B7062A5007546C5 /* UIImageView+SDWebImage.m */; };
+		327F46FA7E91046A39F97046 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29847C417B06E72121B200E2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +36,28 @@
 		13003F191B6F4F9B005ECFE8 /* TLCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13003F1D1B6F4F9B005ECFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13003F1E1B6F4F9B005ECFE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		13003F201B6F4F9B005ECFE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		13003F211B6F4F9B005ECFE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		13003F231B6F4F9B005ECFE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		13003F241B6F4F9B005ECFE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13003F201B6F4F9B005ECFE8 /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
+		13003F211B6F4F9B005ECFE8 /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
+		13003F231B6F4F9B005ECFE8 /* TLMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLMainViewController.h; sourceTree = "<group>"; };
+		13003F241B6F4F9B005ECFE8 /* TLMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLMainViewController.m; sourceTree = "<group>"; };
 		13003F271B6F4F9B005ECFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13003F291B6F4F9B005ECFE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13003F2C1B6F4F9B005ECFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13003F321B6F4F9B005ECFE8 /* TLCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13003F371B6F4F9B005ECFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13003F381B6F4F9B005ECFE8 /* TLCycleScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCycleScrollViewTests.m; sourceTree = "<group>"; };
+		13003F421B6F503D005ECFE8 /* TLCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCycleScrollView.h; sourceTree = "<group>"; };
+		13003F431B6F503D005ECFE8 /* TLCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCycleScrollView.m; sourceTree = "<group>"; };
+		13003F451B6F566E005ECFE8 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		13003F741B6F65DB005ECFE8 /* TLZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLZoomingScrollView.h; sourceTree = "<group>"; };
+		13003F751B6F65DB005ECFE8 /* TLZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLZoomingScrollView.m; sourceTree = "<group>"; };
+		13E6BF7E1B70560A007546C5 /* TLClickImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLClickImageView.h; sourceTree = "<group>"; };
+		13E6BF7F1B70560A007546C5 /* TLClickImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLClickImageView.m; sourceTree = "<group>"; };
+		13E6BF841B7062A5007546C5 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		13E6BF851B7062A5007546C5 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		29847C417B06E72121B200E2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3BC73C4FD96F9911A5CDBC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E58946656E1900602A9808BB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327F46FA7E91046A39F97046 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +85,8 @@
 				13003F1B1B6F4F9B005ECFE8 /* TLCycleScrollView */,
 				13003F351B6F4F9B005ECFE8 /* TLCycleScrollViewTests */,
 				13003F1A1B6F4F9B005ECFE8 /* Products */,
+				5D318E3D2A0815C4507238E8 /* Pods */,
+				B7102823C5B4A813A89262A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +102,11 @@
 		13003F1B1B6F4F9B005ECFE8 /* TLCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				13003F201B6F4F9B005ECFE8 /* AppDelegate.h */,
-				13003F211B6F4F9B005ECFE8 /* AppDelegate.m */,
-				13003F231B6F4F9B005ECFE8 /* ViewController.h */,
-				13003F241B6F4F9B005ECFE8 /* ViewController.m */,
+				13003F731B6F65C8005ECFE8 /* TLCycleScrollView */,
+				13003F201B6F4F9B005ECFE8 /* TLAppDelegate.h */,
+				13003F211B6F4F9B005ECFE8 /* TLAppDelegate.m */,
+				13003F231B6F4F9B005ECFE8 /* TLMainViewController.h */,
+				13003F241B6F4F9B005ECFE8 /* TLMainViewController.m */,
 				13003F261B6F4F9B005ECFE8 /* Main.storyboard */,
 				13003F291B6F4F9B005ECFE8 /* Images.xcassets */,
 				13003F2B1B6F4F9B005ECFE8 /* LaunchScreen.xib */,
@@ -96,6 +118,7 @@
 		13003F1C1B6F4F9B005ECFE8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				13003F451B6F566E005ECFE8 /* data.json */,
 				13003F1D1B6F4F9B005ECFE8 /* Info.plist */,
 				13003F1E1B6F4F9B005ECFE8 /* main.m */,
 			);
@@ -119,6 +142,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		13003F731B6F65C8005ECFE8 /* TLCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				13003F421B6F503D005ECFE8 /* TLCycleScrollView.h */,
+				13003F431B6F503D005ECFE8 /* TLCycleScrollView.m */,
+				13E6BF7E1B70560A007546C5 /* TLClickImageView.h */,
+				13E6BF7F1B70560A007546C5 /* TLClickImageView.m */,
+				13003F741B6F65DB005ECFE8 /* TLZoomingScrollView.h */,
+				13003F751B6F65DB005ECFE8 /* TLZoomingScrollView.m */,
+				13E6BF841B7062A5007546C5 /* UIImageView+SDWebImage.h */,
+				13E6BF851B7062A5007546C5 /* UIImageView+SDWebImage.m */,
+			);
+			name = TLCycleScrollView;
+			sourceTree = "<group>";
+		};
+		5D318E3D2A0815C4507238E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E58946656E1900602A9808BB /* Pods.debug.xcconfig */,
+				3D3BC73C4FD96F9911A5CDBC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7102823C5B4A813A89262A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29847C417B06E72121B200E2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13003F3C1B6F4F9B005ECFE8 /* Build configuration list for PBXNativeTarget "TLCycleScrollView" */;
 			buildPhases = (
+				CF37F4A5391912B86FC66EEB /* Check Pods Manifest.lock */,
 				13003F151B6F4F9B005ECFE8 /* Sources */,
 				13003F161B6F4F9B005ECFE8 /* Frameworks */,
 				13003F171B6F4F9B005ECFE8 /* Resources */,
+				B00EE27B8B72CBBB6D3FC7EE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +225,7 @@
 				TargetAttributes = {
 					13003F181B6F4F9B005ECFE8 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 46MF2PE5UD;
 					};
 					13003F311B6F4F9B005ECFE8 = {
 						CreatedOnToolsVersion = 6.4;
@@ -202,6 +260,7 @@
 				13003F281B6F4F9B005ECFE8 /* Main.storyboard in Resources */,
 				13003F2D1B6F4F9B005ECFE8 /* LaunchScreen.xib in Resources */,
 				13003F2A1B6F4F9B005ECFE8 /* Images.xcassets in Resources */,
+				13003F461B6F566E005ECFE8 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,13 +273,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B00EE27B8B72CBBB6D3FC7EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF37F4A5391912B86FC66EEB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		13003F151B6F4F9B005ECFE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13003F251B6F4F9B005ECFE8 /* ViewController.m in Sources */,
-				13003F221B6F4F9B005ECFE8 /* AppDelegate.m in Sources */,
+				13E6BF861B7062A5007546C5 /* UIImageView+SDWebImage.m in Sources */,
+				13003F441B6F503D005ECFE8 /* TLCycleScrollView.m in Sources */,
+				13003F251B6F4F9B005ECFE8 /* TLMainViewController.m in Sources */,
+				13E6BF801B70560A007546C5 /* TLClickImageView.m in Sources */,
+				13003F221B6F4F9B005ECFE8 /* TLAppDelegate.m in Sources */,
+				13003F761B6F65DB005ECFE8 /* TLZoomingScrollView.m in Sources */,
 				13003F1F1B6F4F9B005ECFE8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,21 +441,31 @@
 		};
 		13003F3D1B6F4F9B005ECFE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E58946656E1900602A9808BB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TLCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		13003F3E1B6F4F9B005ECFE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3BC73C4FD96F9911A5CDBC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TLCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -416,6 +522,7 @@
 				13003F3E1B6F4F9B005ECFE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13003F3F1B6F4F9B005ECFE8 /* Build configuration list for PBXNativeTarget "TLCycleScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +531,7 @@
 				13003F411B6F4F9B005ECFE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

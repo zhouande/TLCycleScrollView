@@ -6,13 +6,13 @@
 //  Copyright (c) 2015年 andezhou. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "TLAppDelegate.h"
 
-@interface AppDelegate ()
+@interface TLAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation TLAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
